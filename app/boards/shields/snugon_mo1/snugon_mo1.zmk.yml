@@ -1,0 +1,16 @@
+file_format: "1"
+id: snugon_mo1
+name: Snugon MO1
+type: shield
+url: https://github.com/shotanishide/snugon-mo1
+requires: [seeeduino_xiao_ble]
+features:
+  - pointing
+  - mouse
+  - encoder
+  - underglow
+  - wireless
+description: |
+  Snugon MO1 is a 12-button wireless gaming mouse powered by ZMK firmware.
+  Features include PMW3610 optical sensor, customizable keymaps across 32 layers,
+  and both USB and Bluetooth connectivity.

@@ -1,2 +1,3 @@
 zmk	ZMK Project
 moergo	MoErgo
+pixart	Pixart Imaging Inc.

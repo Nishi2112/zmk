@@ -1,0 +1,5 @@
+# Copyright (c) 2024 Shota Nishide
+# SPDX-License-Identifier: MIT
+
+config SHIELD_SNUGON_MO1
+    def_bool $(shields_list_contains,snugon_mo1)

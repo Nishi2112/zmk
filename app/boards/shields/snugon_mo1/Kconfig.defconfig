@@ -1,0 +1,52 @@
+# Copyright (c) 2024 Shota Nishide
+# SPDX-License-Identifier: MIT
+
+if SHIELD_SNUGON_MO1
+
+config ZMK_KEYBOARD_NAME
+    default "Snugon MO1"
+
+config ZMK_POINTING
+    default y
+
+config INPUT
+    default y
+
+config I2C
+    default y
+
+config SPI
+    default y
+
+config GPIO
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_BLE
+    default y
+
+# Battery monitoring
+config ZMK_BATTERY_REPORTING
+    default y
+
+# RGB LED for battery status - temporarily disabled
+# config ZMK_RGB_UNDERGLOW
+#     default y
+
+# config LED_STRIP
+#     default y
+
+# config WS2812_STRIP
+#     default y
+
+# Split configuration (for future expansion)
+config ZMK_SPLIT
+    default n
+
+# Layer configuration is already defined in main ZMK Kconfig, just set default
+# config ZMK_KEYMAP_LAYER_COUNT
+#     default 32
+
+endif # SHIELD_SNUGON_MO1
